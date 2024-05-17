@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.top-section {
+    background-color: black; /* Pastel pink */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.middle-section {
+    background-image: url('https://i.ibb.co/YQdqrwJ/openart-image-RVi33lr7-1715650818970-raw.jpg');
+    background-size: cover;
+    background-position: center top;
+    height: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+}
+
+.content-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.content-section h2 {
+    margin-bottom: 20px;
+}
+
+.content-section p, .content-section ul {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #E0FFFF; /* Light cyan background */
+}
+
+.column {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.column h2 {
+    text-align: center;
+}
+
+.checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.checkboxes label {
+    width: 45%;
+    margin: 5px;
+}
+
+#searchButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+.disclaimer {
+    text-align: center;
+    padding: 20px;
+    background-color: #F0F8FF; /* AliceBlue background */
+    border-top: 1px solid #ccc;
+    font-size: 0.9em;
+    color: #333;
+}
